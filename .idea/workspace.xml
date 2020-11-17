@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1960b7bd-b41d-4190-a793-f2ab52f3a0c9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1ipEzq0w2rgqPuRAy0Bcqj3zD9n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1960b7bd-b41d-4190-a793-f2ab52f3a0c9" name="Default Changelist" comment="" />
+      <created>1602596397803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602596397803</updated>
+      <workItem from="1602596400989" duration="11854000" />
+      <workItem from="1602679585364" duration="13571000" />
+      <workItem from="1602724576449" duration="8744000" />
+      <workItem from="1602733402836" duration="11894000" />
+      <workItem from="1602755328772" duration="2053000" />
+      <workItem from="1603370545073" duration="8093000" />
+      <workItem from="1603538206575" duration="7184000" />
+      <workItem from="1603601560374" duration="7514000" />
+      <workItem from="1603637813668" duration="8724000" />
+      <workItem from="1603675842411" duration="11851000" />
+      <workItem from="1603760003619" duration="1601000" />
+      <workItem from="1603812605912" duration="7884000" />
+      <workItem from="1603849490377" duration="9206000" />
+      <workItem from="1603981170518" duration="19137000" />
+      <workItem from="1605620052931" duration="5642000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1605623574652">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605623574652" />
+    <state x="667" y="119" width="650" height="801" key="find.popup" timestamp="1605625252594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="650" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605625252594" />
+    <state x="781" y="291" key="refactoring.ChangeSignatureDialog" timestamp="1602683515190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="781" y="291" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602683515190" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603539858450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603539858450" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602755116986">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602755116986" />
+  </component>
+</project>
