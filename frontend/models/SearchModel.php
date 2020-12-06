@@ -94,7 +94,7 @@
         public function modelSmartSearch($key){
 			//lay bien ket noi
 			$conn = Connection::getInstance();
-			$query = $conn->query("select id,name,photo,price from products where name like '%$key%'");
+			$query = $conn->query("select id,name,photo,price from products where name like '%$key%' limit 0,6");
 			return $query->fetchAll();
 		}
         public function modelNameBrand(){

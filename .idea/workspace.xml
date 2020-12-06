@@ -10,6 +10,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ipEzq0w2rgqPuRAy0Bcqj3zD9n" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,7 +53,11 @@
       <workItem from="1603812605912" duration="7884000" />
       <workItem from="1603849490377" duration="9206000" />
       <workItem from="1603981170518" duration="19137000" />
-      <workItem from="1605620052931" duration="5642000" />
+      <workItem from="1605620052931" duration="6327000" />
+      <workItem from="1606050547416" duration="6222000" />
+      <workItem from="1606098306199" duration="2084000" />
+      <workItem from="1606235214163" duration="13263000" />
+      <workItem from="1606929659306" duration="15070000" />
     </task>
     <servers />
   </component>
@@ -58,22 +65,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1605623574652">
+    <state x="733" y="243" key="NewPhpClassDialog" timestamp="1606058705145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605623574652" />
-    <state x="667" y="119" width="650" height="801" key="find.popup" timestamp="1605625252594">
+    <state x="733" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606058705145" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1607005569090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="650" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605625252594" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607005569090" />
+    <state x="667" y="119" width="650" height="801" key="find.popup" timestamp="1606315436363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="650" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606315436363" />
     <state x="781" y="291" key="refactoring.ChangeSignatureDialog" timestamp="1602683515190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="781" y="291" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602683515190" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1603539858450">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606314019253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603539858450" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606314019253" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602755116986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

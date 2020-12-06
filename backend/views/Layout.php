@@ -110,6 +110,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="index.php?controller=output">
+                        <i class="fa fa-th"></i> <span>Lịch sử bán hàng</span>
+                    </a>
+                </li>
+                <li>
                     <a href="index.php?controller=users">
                         <i class="fa fa-th"></i> <span>Quản lí User</span>
                     </a>

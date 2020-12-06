@@ -13,16 +13,16 @@
                         <h3 class="title">Địa chỉ thanh toán</h3>
                     </div>
                     <div class="form-group">
-                        <input class="input" type="text" name="name" placeholder="Họ Và Tên">
+                        <input class="input" type="text" name="name" placeholder="Họ Và Tên" required="">
                     </div>
                     <div class="form-group">
-                        <input class="input" type="email" name="email" placeholder="Email">
+                        <input class="input" type="email" name="email" placeholder="Email" required="">
                     </div>
                     <div class="form-group">
-                        <input class="input" type="text" name="address" placeholder="Địa chỉ">
+                        <input class="input" type="text" name="address" placeholder="Địa chỉ" required="">
                     </div>
                     <div class="form-group">
-                        <input class="input" type="tel" name="phone" placeholder="Số điện thoại">
+                        <input class="input" type="tel" name="phone" placeholder="Số điện thoại" required="">
                     </div>
                 </div>
                 <!-- /Billing Details -->

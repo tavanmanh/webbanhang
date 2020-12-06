@@ -92,6 +92,14 @@
                         </div>
                         <a class="review-link" href="#"></a>
                     </div>
+                    <div style="margin-top: 10px;font-weight: bold">
+                        Trạng Thái :
+                        <?php if($record->amount == 0): ?>
+                            <span class="label label-danger" style="font-size: 15px">Hết hàng</span>
+                        <?php else: ?>
+                            <span class="label label-primary" style="font-size: 15px">Còn hàng</span>
+                        <?php endif; ?>
+                    </div>
                     <div>
                         <h3 class="product-price"><?php echo number_format($record->price - ($record->price*$record->discount)/100); ?> <del class="product-old-price"><?php echo $record->price; ?></del></h3>
                     </div>
