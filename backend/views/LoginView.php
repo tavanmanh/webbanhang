@@ -32,7 +32,7 @@
 
             <form class="login100-form validate-form" method="post" action="index.php?controller=login&action=login">
 					<span class="login100-form-title">
-						Member Login
+						Đăng Nhập
 					</span>
 
                 <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
@@ -55,15 +55,6 @@
                     <button class="login100-form-btn">
                         Login
                     </button>
-                </div>
-
-                <div class="text-center p-t-12">
-						<span class="txt1">
-							Quên mật khẩu
-						</span>
-                    <a class="txt2" href="#">
-                        Username / Password?
-                    </a>
                 </div>
                 <div class="text-center p-t-136">
                 </div>

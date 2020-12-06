@@ -6,12 +6,12 @@
         <div class="panel-body">
             <table class="table table-bordered table-hover">
                 <tr>
-                    <th>Name</th>
-                    <th>Phone</th>
-                    <th>Date</th>
-                    <th>Price</th>
-                    <th style="width:150px; text-align: center;">Status</th>
-                    <th style="width:150px;">Delivery</th>
+                    <th>Tên </th>
+                    <th>Số điện thoại</th>
+                    <th>Ngày bán</th>
+                    <th>Giá</th>
+                    <th style="width:150px; text-align: center;">Trạng thái</th>
+                    <th style="width:150px;">Vận chuyển</th>
                 </tr>
                 <?php foreach($listRecord as $rows): ?>
                     <?php
