@@ -6,7 +6,7 @@
 		<script type="text/javascript">alert('Email đã tồn tại!');</script>
 	<?php endif; ?>
     <div class="panel panel-primary">
-        <div class="panel-heading">Add edit user</div>
+        <div class="panel-heading">Thêm người dùng</div>
         <div class="panel-body">
         <form method="post" action="<?php echo $action; ?>">
             <!-- rows -->

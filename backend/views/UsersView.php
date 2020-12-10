@@ -2,10 +2,10 @@
 <?php $this->layoutPath = "Layout.php"; ?>
 <div class="col-md-12">
     <div style="margin-bottom:5px;">
-        <a href="index.php?controller=users&action=create" class="btn btn-primary">Add user</a>
+        <a href="index.php?controller=users&action=create" class="btn btn-primary">Thêm người dùng</a>
     </div>
     <div class="panel panel-primary">
-        <div class="panel-heading">List User</div>
+        <div class="panel-heading">Danh sách người dùng</div>
         <div class="panel-body">
             <table class="table table-bordered table-hover">
                 <tr>

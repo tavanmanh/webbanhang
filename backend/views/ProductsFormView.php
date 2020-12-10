@@ -2,7 +2,7 @@
 <?php $this->layoutPath = "Layout.php"; ?>
 <div class="col-md-12">  	
     <div class="panel panel-primary">
-        <div class="panel-heading">Add edit products</div>
+        <div class="panel-heading">Thêm sản phẩm</div>
         <div class="panel-body">
             <!-- muon upload duoc file thi phai co thuoc tinh enctype="multipart/form-data" -->
         <form method="post" enctype="multipart/form-data" action="<?php echo $action; ?>">

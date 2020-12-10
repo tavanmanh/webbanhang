@@ -2,10 +2,10 @@
 <?php $this->layoutPath = "Layout.php"; ?>
 <div class="col-md-12">
     <div style="margin-bottom:5px;">
-        <a href="index.php?controller=products&action=create" class="btn btn-primary">Add products</a>
+        <a href="index.php?controller=products&action=create" class="btn btn-primary">Thêm sản phẩm</a>
     </div>
     <div class="panel panel-primary">
-        <div class="panel-heading">List Products</div>
+        <div class="panel-heading">Danh sách sản phẩm</div>
         <div class="panel-body">
             <table class="table table-bordered table-hover">
                 <tr>
