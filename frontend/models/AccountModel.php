@@ -36,9 +36,11 @@
 					$_SESSION["customer_email"] = $email;
 					$_SESSION["customer_id"] = $result->id;
 					header("location:index.php");
-				}				
+				} else {
+                    header("location:index.php?controller=account&action=login&message=forgetpassword");
+                }
 			}else
-				header("location:index.php?controller=account&action=login");
+				header("location:index.php?controller=account&action=login&message=emailnotfound");
 		}
 	}
  ?>

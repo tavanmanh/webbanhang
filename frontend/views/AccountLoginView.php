@@ -1,5 +1,6 @@
 <!-- load file layout chung -->
 <?php $this->layoutPath = "LayoutTrangTrong.php"; ?>
+<?php $message = isset($_GET["message"]) ? $_GET["message"]:""?>
 <div class="template-customer">
     <h1>Đăng nhập tài khoản</h1>
     <p>Nếu bạn có tài khoản xin vui lòng đăng nhập</p>
@@ -8,6 +9,7 @@
             <div class="wrapper-form">
                 <form method='post' action="index.php?controller=account&action=loginPost">
                     <p class="title"><span>Đăng nhập tài khoản</span></p>
+                    <div class="alert-danger"><?php if ($message === "forgetpassword") echo "Sai email hoặc mật khẩu"; else if($message === "emailnotfound") echo "Email không tồn tại"?></div>
                     <div class="form-group">
                         <label>Email:<b id="req">*</b></label>
                         <input type="email" class="input-control" name="email" required="">

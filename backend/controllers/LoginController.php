@@ -16,7 +16,7 @@
 			//goi ham modelLogin trong model
 			$this->modelLogin();
 			//quay lai trang index
-			header("location:index.php");
+//			header("location:index.php");
 		}
 		//dang xuat
 		public function logout(){

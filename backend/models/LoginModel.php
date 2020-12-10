@@ -13,8 +13,14 @@
 				if($result->password == $password){
 					//dang nhap thanh cong
 					$_SESSION["email"] = $email;
-				}
+                    header("location:index.php");
+				} else {
+                    header("location:index.php?controller=login&message=forgetpassword");
+                }
 			}
+			else {
+                header("location:index.php?controller=login&message=emailnotfound");;
+            }
 		}
 	}
  ?>

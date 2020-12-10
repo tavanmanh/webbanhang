@@ -1,3 +1,5 @@
+<?php $message = isset($_GET["message"]) ? $_GET["message"]:""?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,10 +33,8 @@
             </div>
 
             <form class="login100-form validate-form" method="post" action="index.php?controller=login&action=login">
-					<span class="login100-form-title">
-						Đăng Nhập
-					</span>
-
+					<span class="login100-form-title" style="font-weight: bold">ĐĂNG NHẬP</span>
+                <div class="alert-danger" style="background: white;margin-left: 20px"><?php if ($message === "forgetpassword") echo "Sai email hoặc mật khẩu";?></div>
                 <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
                     <input class="input100" type="email" name="email" placeholder="Email">
                     <span class="focus-input100"></span>
