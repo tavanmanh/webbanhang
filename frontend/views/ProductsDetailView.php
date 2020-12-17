@@ -76,7 +76,7 @@
             <!-- /Product thumb imgs -->
 
             <!-- Product details -->
-            <div class="col-md-5">
+            <div class="col-md-5" style="font-size: 20px">
                 <div class="product-details">
                     <h2 class="product-name"><?php echo $record->name; ?></h2>
                     <div>
@@ -100,6 +100,7 @@
                             <span class="label label-primary" style="font-size: 15px">Còn hàng</span>
                         <?php endif; ?>
                     </div>
+                    <div style="margin-top: 10px;font-size: 20px">Số sản phẩm còn : <?php echo $record->amount; ?></div>
                     <div>
                         <h3 class="product-price"><?php echo number_format($record->price - ($record->price*$record->discount)/100); ?> <del class="product-old-price"><?php echo $record->price; ?></del></h3>
                     </div>

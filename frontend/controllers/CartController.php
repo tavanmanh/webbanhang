@@ -13,7 +13,24 @@
 			$this->loadView("CartView.php");
 		}
         public function checkoutView(){
-            $this->loadView("CheckOutView.php");
+            $products = array();
+            $error = "";
+            foreach($_SESSION["cart"] as $rows){
+                $product_id = $rows["id"];
+                $isValid = $this->checkProduct($product_id, $rows["number"]);
+                if (!$isValid) {
+                    array_push($products, $product_id);
+                    $error = "lack";
+                }
+            }
+            if ($error) {
+                $product_error = join(" ", $products);
+                header("location:index.php?controller=cart&product=$product_error&error=$error");
+            } else {
+                //quay lai trang gio hang
+                $this->loadView("CheckOutView.php");
+            }
+
         }
 		//them san pham vao gio hang
 		public function create(){
@@ -42,14 +59,29 @@
 		}
 		//update so luong san pham trong gio hang
 		public function update(){
+		    $products = array();
+            $error = "";
+            $test = "";
 			foreach($_SESSION["cart"] as $rows){
 				$product_id = $rows["id"];
 				$quantity = $_POST["product_$product_id"];
-				//goi ham update so luong san pham
-				$this->cartUpdate($product_id,$quantity);
+                $isValid = $this->checkProduct($product_id, $quantity);
+                $test = $isValid;
+                if ($isValid) {
+                    //goi ham update so luong san pham
+                    $this->cartUpdate($product_id,$quantity);
+                } else {
+                    array_push($products, $product_id);
+                    $error = "lack";
+                }
 			}
-			//quay lai trang gio hang
-			header("location:index.php?controller=cart");
+			if ($error) {
+			    $product_error = join(" ", $products);
+                header("location:index.php?controller=cart&product=$product_error&error=$error");
+            } else {
+                //quay lai trang gio hang
+                header("location:index.php?controller=cart&test=$test");
+            }
 		}
 		//thanh toan gio hang
 		public function checkOut(){

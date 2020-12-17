@@ -65,6 +65,15 @@
 		        $_SESSION['cart'][$id]['number'] = $number;
 		    }
 		}
+
+        public function checkProduct($product_id, $number){
+            $conn = Connection::getInstance();
+            //tinh tong cac cot star cua table rating tuong ung voi id truyen vao
+            $query = $conn->query("select amount from products where id=$product_id");
+            $product_amount = $query->fetch()->amount;
+            return $product_amount >= $number;
+        }
+
 		/**
 		 * Xóa sản phẩm ra khỏi giỏ hàng
 		 * @param int

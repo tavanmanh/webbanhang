@@ -151,7 +151,7 @@
 		<!-- /HEADER -->
 
 		<!-- NAVIGATION -->
-		<nav id="navigation">
+		<nav id="navigation" style="font-size: 20px">
 			<!-- container -->
 			<div class="container">
 				<!-- responsive-nav -->
